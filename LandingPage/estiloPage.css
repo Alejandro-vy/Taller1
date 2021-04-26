@@ -1,0 +1,133 @@
+body{
+    background-color:cornflowerblue;
+}
+.grid{
+    display: grid;
+    grid-template-areas:  "header header"
+                          "content sidebar"
+                          "footer footer";
+    grid-template-rows: 60px 2fr 400px;
+    grid-template-columns:1fr 1fr ;                      
+}
+.header{
+    background-color: rgb(80, 30, 172);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    list-style-type: none;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 1fr;
+    height: 4fr;
+    overflow: hidden;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    text-align: center ;
+    
+
+}
+.content{
+    background-color:cornflowerblue;
+}
+
+.footer{
+    background-color:rgb(0, 29, 82);
+}
+form{
+    margin: 40px;
+    margin-right:2px;
+    padding: 22px;
+    background-color:rgb(11, 149, 196);
+    border-style: solid;
+    border-color:rgb(5, 148, 196);
+    border-radius: 4px;
+    height:560px;
+    width: 380px;
+    
+}
+
+
+input[type=text]{
+    width: 300px;
+    padding: 15px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+}
+button{
+    width: 350px;
+    padding: 15px;
+    background-color: rgb(80, 30, 172);
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+#cajaComentarios{
+    width: 300px;
+    height: 120px;
+    padding: 20px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+
+}
+.tituloForm{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center ;
+   
+}
+
+li{
+    float: left;
+    color: #ffffff;
+    padding: 15px;
+
+}
+
+#imagenPrincipal{
+    width: 600px;
+    height: 5000;
+    margin-left: 20px;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 5px 5px 0px cadetblue;
+}
+#avion{
+    height: 50px;
+    width: 48px;
+    margin-bottom: 1000px;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    color: #ffffff;
+    text-align: justify ;
+    margin-left: 20px;
+
+}
+#comentarios{
+    background-color: papayawhip;
+    color: black;
+    border: black;
+    border-radius: 5px;
+    top: 40px;
+}
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: left;
+
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloPage.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="grid">
+        <div class="header">
+            
+                <li><img id="avion" src="imagenes/outline_flight_takeoff_white_24dp.png"></li>
+                <li><a>Inicio</a></li>
+                <li><a>Acerca de</a></li>
+                <li><a>Contacto</a></li>
+              
+        </div>
+        <div class="header">
+          
+            <li><a>Paises</a></li>
+            <li><a>Paquetes</a></li>
+            <li><a>Hospedaje</a></li>
+            <li><a>Traslado</a></li>
+            <li><a>Seguros</a></li> 
+          
+        </div>
+         
+        <div class="content">
+            <h1>VIVE TUS VACACIONES SOÑADAS!!!</h1> <br/>
+            <img id="imagenPrincipal" src="imagenes/side-view-of-person-holding-airplane-figurine-over-map.jpg" >
+            <p>Vuelos a todas partes del mundo por precios irresistibles!!</p>
+        </div>
+        <div class="content">
+              <form>
+                <div class="tituloForm">DESCUBRE NUESTRAS OFERTAS </div> 
+                <div class="tituloForm">DE VIAJE EXCLUSIVAS!!!</div>  <br/>  <br/>
+                <input type="text" placeholder= "Ingrese Su Nombre..."> 
+                  <br/>  <br/>
+                <input type="text" placeholder="Ingrese Su Apellido...">
+                 <br/> <br/>
+                 <input type="text" placeholder="Ingrese Su Email...">
+                  <br/> <br/>
+                 <input type="text" placeholder="Ingrese Su Telefono...">
+                   <br/> <br/>
+                 <textarea  id="cajaComentarios" placeholder="Agregue algún comentario.."></textarea>
+                 <br/> <br/>
+                 <button onclick="agregarComentario('text')">Recibir ofertas y agregar comentario</button>
+                
+               </form>
+        </div>
+        <div class="footer">
+          <h2>COMENTARIOS:</h2>
+          <div id="comentarios"></div>
+        </div>
+        <div class="footer">Footer</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+ 
+</html>
